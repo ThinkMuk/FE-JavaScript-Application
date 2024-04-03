@@ -8,3 +8,12 @@ let lionMoney = {
   재혁: 2800,
   동재: 50000,
 };
+let sum = 0;
+
+function cal(tmpSum) {
+  for (let i in lionMoney) {
+    tmpSum += lionMoney[i];
+  }
+  return tmpSum;
+}
+alert(cal(sum));
