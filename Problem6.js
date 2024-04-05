@@ -16,5 +16,5 @@ ansArr.sort(function (a, b) {
 // });
 
 //스프레드 연산자를 활용한 변경
-ansArr.map((item) => ({ ...item, part: item.part.toUpperCase() }));
+ansArr = ansArr.map((item) => ({ ...item, part: item.part.toUpperCase() }));
 console.log(ansArr);
